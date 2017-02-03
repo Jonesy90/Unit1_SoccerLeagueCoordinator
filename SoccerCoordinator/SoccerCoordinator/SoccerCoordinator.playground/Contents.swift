@@ -163,9 +163,7 @@ let sharksPractice = "March 17, 3pm"
 let raptorsPractice = "March 18, 1pm"
 
 
-for (key, value) in experiencedPlayers {
-    if experiencedPlayers[0]
-}
+
 
 
 
