@@ -113,7 +113,7 @@ let soccerPlayers = [
 ]
 ]
 
-//Two empty arrays which will hold experienced and unexperienced players.
+//Dictionary where the ky is String, value is (Dictionary of key String, value of String.
 var experiencedPlayers : [String : [String : String]] = [:]
 var unexperiencedPlayers : [String : [String : String]] = [:]
 
@@ -128,9 +128,6 @@ while playerCounter < soccerPlayers.count {
     }
     playerCounter += 1
 }
-
-experiencedPlayers
-unexperiencedPlayers
 
 //Three empty arrays which will hold the three teams.
 //var teamShark : [String : [String : String]] = [:]
@@ -166,7 +163,9 @@ let sharksPractice = "March 17, 3pm"
 let raptorsPractice = "March 18, 1pm"
 
 
-
+for (key, value) in experiencedPlayers {
+    if experiencedPlayers[0]
+}
 
 
 
