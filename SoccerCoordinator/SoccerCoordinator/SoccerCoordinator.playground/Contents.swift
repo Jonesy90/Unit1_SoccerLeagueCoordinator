@@ -183,13 +183,22 @@ let teams = [
 "players" : teamRaptors
 ]]
 
+//An empty String variable that will contain each letter.
+var letter = ""
 
+//For In Loop to generate the later and append it to the 'team' variable.
+for team in teams {
+    let players = team["players"] as! [[String : String]]
+    let teamName = team["teamName"]!
+    let practice = team["time"]!
+    for player in players {
+        let name = player["name"]!
+        let guardian = player["guardian"]!
+        letter += "Dead \(guardian),\nYour son/daugher \"\(name)\" has been choosen to play for the \(teamName). They require to be available for pracice on \(practice)\n\n"
+    }
+}
 
-
-
-
-
-
+print(letter)
 
 
 
