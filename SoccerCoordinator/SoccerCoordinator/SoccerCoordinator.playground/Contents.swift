@@ -163,6 +163,26 @@ let dragonsPractice = "March 17, 1pm"
 let sharksPractice = "March 17, 3pm"
 let raptorsPractice = "March 18, 1pm"
 
+/*
+ A array of dictionaries that contain.
+ teamName - The name of the team.
+ time - The date and time the practice session is taking place.
+ players - A list of all the players under that team
+*/
+let teams = [
+["teamName" : "Dragons",
+"time" : dragonsPractice,
+"players" : teamDragon
+    ],
+["teamName" : "Sharks",
+"time" : sharksPractice,
+"players" : teamShark],
+[
+"teamName" : "Raptors",
+"time" : raptorsPractice,
+"players" : teamRaptors
+]]
+
 
 
 
