@@ -117,8 +117,9 @@ let soccerPlayers = [
 var experiencedPlayers = [[String : String]]()
 var unexperiencedPlayers = [[String : String]]()
 
-var playerCounter = 0
 
+//While Loop that organises the soccer players into two types - 'experienced' and 'unexperienced'.
+var playerCounter = 0
 while playerCounter < soccerPlayers.count {
     let player = soccerPlayers[playerCounter]
     
@@ -198,6 +199,7 @@ for team in teams {
     }
 }
 
+//Prints a list the list of letters to be sent to the guardians.
 print(letter)
 
 
